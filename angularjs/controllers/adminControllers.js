@@ -1,7 +1,7 @@
 /* global angular */
 angular.module("sportsStoreAdmin")
-.constant("authUrl", "https://tomatort-tr0ythex.c9users.io:8081/users/login")
-.constant("ordersUrl", "https://tomatort-tr0ythex.c9users.io:8081/orders")
+.constant("authUrl", "https://angular-test-tr0ythex.c9users.io:8081/users/login")
+.constant("ordersUrl", "https://angular-test-tr0ythex.c9users.io:8081/orders")
 .controller("authCtrl", function ($scope, $http, $location, authUrl) {
   $scope.authenticate = function (user, pass) {
     $http.post(authUrl, {

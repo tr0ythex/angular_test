@@ -1,6 +1,6 @@
 /* global angular */
 angular.module("sportsStoreAdmin")
-.constant("productUrl", "https://tomatort-tr0ythex.c9users.io:8081/products")
+.constant("productUrl", "https://angular-test-tr0ythex.c9users.io:8081/products")
 .config(function($httpProvider) {
   $httpProvider.defaults.withCredentials = true;
 })

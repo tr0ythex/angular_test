@@ -1,7 +1,7 @@
 /* global angular */
 angular.module("sportsStore")
-.constant("dataUrl", "https://tomatort-tr0ythex.c9users.io:8081/products")
-.constant("orderUrl", "https://tomatort-tr0ythex.c9users.io:8081/orders")
+.constant("dataUrl", "https://angular-test-tr0ythex.c9users.io:8081/products")
+.constant("orderUrl", "https://angular-test-tr0ythex.c9users.io:8081/orders")
 .controller("sportsStoreCtrl", function ($scope, $http, $location, 
   dataUrl, orderUrl, cart) {
   $scope.data = {};
